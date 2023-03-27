@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto",sans-serif;
+  background-color: white;
+  width: 100vw;
+}
+
+@layer components{
+  .activeNav{
+    @apply rounded-[8px] shadow-navShadow bg-[#00C368] text-white !important
+  }
+  .hoverItem{
+    @apply scale-125 transition duration-500 text-[#00C368]
+  }
+  .iconHover{
+    @apply stroke-amber-600 !important
+  }
+  .svg:hover * {
+    stroke:  #00C368;
+  }
+
+  .single .slide div {
+    margin: 0 auto !important;
+  }
+
+}

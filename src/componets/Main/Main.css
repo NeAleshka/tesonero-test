@@ -1,0 +1,26 @@
+.main_bg{
+    background: linear-gradient(111.04deg, #E2E2E2 0.39%, rgba(255, 255, 255, 0) 86.46%);
+}
+.slick-prev {
+    left:25% !important;
+    z-index: 10 !important;
+    top:120% !important;
+    transform: rotate(90deg) !important;
+}
+.slick-next {
+    left: 29% !important;
+    z-index: 10 !important;
+    top:120% !important;
+    transform: rotate(270deg) !important;
+    margin-left: 40%;
+}
+.slick-prev:before{
+    content: url("../../assets/questions/Vector.svg") !important;
+}
+
+.slick-next:before{
+    content: url("../../assets/questions/Vector.svg") !important;
+}
+.slick-dots{
+    bottom: -50px !important;
+}
